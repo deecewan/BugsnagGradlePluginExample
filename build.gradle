@@ -13,6 +13,7 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:4.2.2' // update ext + gradle.wrappers if changed (gradleToolsVersion)
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.21" // Update kotlin_version to match
+        classpath "com.bugsnag:bugsnag-android-gradle-plugin:5.8.0"
     }
 }
 
